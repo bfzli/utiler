@@ -1,0 +1,1 @@
+const CurrentYear = () => new Date().getFullYear();

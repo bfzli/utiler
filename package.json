@@ -1,0 +1,13 @@
+{
+  "name": "@utiler/core",
+  "version": "0.0.1",
+  "description": "Your Go-To Toolbox for Effortless Project Utilities ✨",
+  "main": "index.js",
+  "author": "@bfzli",
+  "license": "MIT",
+  "keywords": [
+    "utils",
+    "utiler",
+    "devtools"
+  ]
+}
