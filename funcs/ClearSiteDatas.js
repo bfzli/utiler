@@ -3,13 +3,11 @@ import {
   ClearIndexedDb,
   ClearLocalStorage,
   ClearSessionStorage,
-} from "./";
+} from "../index.js";
 
-const ClearSiteStorage = () => {
+export default function ClearSiteDatas() {
   ClearCookies();
   ClearIndexedDb();
   ClearLocalStorage();
   ClearSessionStorage();
-};
-
-export default ClearSiteStorage;
+}

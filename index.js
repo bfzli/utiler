@@ -1,33 +1,38 @@
-import ClearCookies from "./funcs/ClearCookies";
-import ClearLocalStorage from "./funcs/ClearLocalStorage";
-import ClearSessionStorage from "./funcs/ClearSessionStorage";
-import ClearIndexedDb from "./funcs/ClearIndexedDb";
-import ClearSessionStorage from "./funcs/ClearSessionStorage";
-import Console from "./funcs/Console";
-import CurrentYear from "./funcs/CurrentYear";
-import CurrentTimestamp from "./funcs/CurrentTimestamp";
-import RandomId from "./funcs/RandomId";
-import RandomNumber from "./funcs/RandomNumber";
+import ClearCookies from "./funcs/ClearCookies.js";
+import ClearIndexedDb from "./funcs/ClearIndexedDb.js";
+import ClearLocalStorage from "./funcs/ClearLocalStorage.js";
+import ClearSessionStorage from "./funcs/ClearSessionStorage.js";
+import ClearSiteDatas from "./funcs/ClearSiteDatas.js";
+import Console from "./funcs/Console.js";
+import CurrentTimestamp from "./funcs/CurrentTimestamp.js";
+import CurrentYear from "./funcs/CurrentYear.js";
+import RandomId from "./funcs/RandomId.js";
+import RandomNumber from "./funcs/RandomNumber.js";
 
 const utiler = {
   ClearCookies,
   ClearLocalStorage,
   ClearSessionStorage,
   ClearIndexedDb,
-  ClearSessionStorage,
+  ClearSiteDatas,
   Console,
   CurrentYear,
   CurrentTimestamp,
   RandomId,
-  RandomNumber
-}
+  RandomNumber,
+};
 
 export {
   ClearCookies,
   ClearLocalStorage,
   ClearSessionStorage,
   ClearIndexedDb,
-  ClearSessionStorage,
+  ClearSiteDatas,
+  Console,
+  CurrentYear,
+  CurrentTimestamp,
+  RandomId,
+  RandomNumber,
 };
 
 export default utiler;

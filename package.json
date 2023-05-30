@@ -1,10 +1,19 @@
 {
   "name": "@utiler/core",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Your Go-To Toolbox for Effortless Project Utilities ✨",
   "main": "index.js",
   "author": "@bfzli",
+  "type": "module",
   "license": "MIT",
+  "homepage": "https://github.com/bfzli/utiler#readme",
+  "bugs": {
+    "url": "https://github.com/bfzli/utiler/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bfzli/utiler"
+  },
   "keywords": [
     "utils",
     "utiler",
